@@ -1,0 +1,311 @@
+* {
+ font-family: "Poppins", sans-serif;
+}
+.h-font {
+  font-family: "Merienda", cursive;
+}
+
+.hero-section {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-slide {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  z-index: 2;
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* speed adjusted here */
+  height: 100vh;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+  z-index: 2;
+}
+.who-we-are-section {
+  background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+}
+
+.who-we-are-img {
+  width: 50%;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.who-we-are-img:hover {
+  transform: scale(1.03);
+}
+.modal-content {
+    border: none;
+    padding: 0;
+  }
+  .modal-body {
+    background: #fff;
+    border-radius: 20px;
+  }
+  .modal .form-section:hover {
+    background-color: #f8f9fa;
+  }
+
+.booking-logos img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+
+  .booking-logos img:hover {
+    filter: grayscale(0%);
+  }
+.benefit-img {
+  width: 250px;           /* Increased from 140px */
+  height: 250px;          /* Increased from 140px */
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease;
+}
+
+.benefit-img:hover {
+  transform: scale(1.05);
+}
+
+
+body {
+  scroll-behavior: smooth;
+}
+#services h2 {
+  font-size: 2.5rem;
+  color: #2c2c2c;
+}
+
+.service-box {
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+.service-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+}
+
+.service-box .icon i {
+  transition: color 0.3s ease;
+}
+.service-box:hover .icon i {
+  color: #d4af37; /* Gold effect */
+}
+
+#services p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+  /* Rooms Section  */
+ .hero-rooms {
+      background: url('image/room.jpg') no-repeat center center;
+      background-size: cover;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero-rooms h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .room-card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .room-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    }
+
+    .room-card img {
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+
+    .room-details {
+      background-color: #f8f9fa;
+      border-radius: 0 0 0.5rem 0.5rem;
+    }
+    /* about */
+     .hero-about {
+      background: url('image/about1.jpg') no-repeat center center;
+      background-size: cover;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero-about h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .about-section {
+      padding: 60px 0;
+    }
+
+    .about-image {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .highlight-box {
+      background-color: #f8f9fa;
+      border-left: 5px solid #0d6efd;
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 8px;
+    }
+    /* facilities section */
+    body {
+      background: #f0f4f8;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .facilities-section {
+      background: linear-gradient(to right, #f8f9fc, #eaf0f6);
+      padding: 80px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .section-title {
+      font-size: 3rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 60px;
+      color: #333;
+    }
+
+    .facility-card {
+      background: rgba(255, 255, 255, 0.65);
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+      transition: all 0.4s ease;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .facility-card:hover {
+      transform: translateY(-12px);
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .facility-card img {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 20px;
+    }
+
+    .facility-card h5 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .facility-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 2.2rem;
+      }
+
+      .facility-card {
+        padding: 20px;
+      }
+    }
+    /* contact */
+    body {
+      background: linear-gradient(to right, #e6ecf3, #ffffff);
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .contact-section {
+      padding: 80px 0;
+    }
+
+    .contact-card {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+      transition: 0.3s;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    }
+
+    .form-control {
+      border-radius: 10px;
+      padding: 12px 15px;
+    }
+
+    .form-floating label {
+      padding-left: 15px;
+    }
+
+    .btn-send {
+      background-color: #0066cc;
+      color: #fff;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .btn-send:hover {
+      background-color: #004c99;
+    }
+
+    .section-title {
+      font-size: 2.8rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .contact-info {
+      font-size: 0.95rem;
+      color: #444;
+      line-height: 1.8;
+    }
+
+    .contact-info i {
+      color: #0066cc;
+      margin-right: 8px;
+    }
